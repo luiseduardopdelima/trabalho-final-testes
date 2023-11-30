@@ -30,10 +30,6 @@ jobs:
         run: npm install
       - name: Install dependencies
         run: npm install cypress-xpath --save-dev
-      - name: Install dependencies
-        run: npm install --save-dev cypress-xpath
-      - name: Install dependencies
-        run: npm install --save-dev cypress-file-upload
 
       # Runs a set of commands using the runners shell
       - name: Run Cypress
