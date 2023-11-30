@@ -28,8 +28,6 @@ jobs:
 # Runs a single command using the runners shell
       - name: Install dependencies
         run: npm install
-      - name: Install dependencies
-        run: npm install cypress-xpath --save-dev
 
       # Runs a set of commands using the runners shell
       - name: Run Cypress
