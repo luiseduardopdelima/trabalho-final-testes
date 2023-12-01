@@ -1,0 +1,135 @@
+1- Visualizar Quarto
+
+Dado que estou no site da aplicação (https://projetoweb1hoteljpand.000webhostapp.com/index.php)
+Quando clico no modal "Ver mais quartos"
+E entro na Pagina
+Então é apresentado os quartos disponiveis para reservar
+
+
+2- Reservar o quarto em destaque
+
+Dado que estou no site da aplicação (https://projetoweb1hoteljpand.000webhostapp.com/index.php)
+Quando visualizo o modal em destaque "Quarto Luxo"
+E clico em "Detalhes"
+E entro na pagina de detalhes do quarto
+E clico em "Reservar"
+E entro na pagina de reservar
+E clico em "Efetuar reserva"
+E entro na pagina de processo de reserva
+E preencho o campo Nome com meu nome completo
+E preencho o campo Email com meu Email
+E preencho o campo Checkin com a data que desejo reservar
+E escolho o quarto em destaque no dropdown de quartos
+E digito a quantidade de hóspedes do quarto
+E clico na checkbox para Aceitar os Termos de uso
+E clico no botão "Fazer Reserva"
+Então eu realizo a reserva com sucesso
+
+
+3- Reservar quartos
+
+Dado que estou no site da aplicação (https://projetoweb1hoteljpand.000webhostapp.com/index.php)
+Quando clico no modal "Ver mais quartos"
+E entro na Pagina
+E é apresentado os quartos disponiveis para reservar
+E eu escolho o quarto desejado clicando em Reservar Agora
+E entro na pagina de processo de reserva
+E preencho o campo Nome com meu nome completo
+E preencho o campo Email com meu Email
+E preencho o campo Checkin com a data que desejo reservar
+E escolho o quarto no dropdown de quartos
+E digito a quantidade de hóspedes do quarto
+E clico na checkbox para Aceitar os Termos de uso
+E clico no botão "Fazer Reserva"
+Então eu realizo a reserva com sucesso
+
+
+4- Criar quartos
+
+Dado que estou no site da aplicação (https://projetoweb1hoteljpand.000webhostapp.com/index.php)
+Quando clico no modal "Painel do Admin"
+E entro na pagina de Admin
+E clico em criar Quartos
+E entro na pagina de criar quartos
+E preencho o campo Quarto com o nome do quarto que irei cadastrar
+E preencho o campo descrição conforme se refere ao quarto que irei cadastrar
+E preencho o campo valor com o valor que será cobrado pelo quarto
+E clico no botão Escolher imagem
+E seleciono do meu diretório a imagem desejada
+E clico em Adicionar Quarto
+Então o quarto é criado com sucesso
+
+5- Visualizar quartos
+
+Dado que estou no site da aplicação (https://projetoweb1hoteljpand.000webhostapp.com/index.php)
+Quando clico no modal "Painel do Admin"
+E entro na pagina de Admin
+E clico em visualizar quartos
+Então é apresentado todos quartos disponiveis com suas respectivas informações
+
+6- Editar Quarto
+
+Dado que estou no site da aplicação (https://projetoweb1hoteljpand.000webhostapp.com/index.php)
+Quando clico no modal "Painel do Admin"
+E entro na pagina de Admin
+E clico em visualizar quartos
+E é apresentado todos quartos disponiveis com suas respectivas informações
+E clico em Editar Quarto
+E entro na aba de edição do quarto
+E edito a descrição conforme desejado
+E digito o valor conforme desejado
+E clico em "Salvar"
+Então a alteração é salva com sucesso
+
+7- Excluir Quarto
+
+Dado que estou no site da aplicação (https://projetoweb1hoteljpand.000webhostapp.com/index.php)
+Quando clico no modal "Painel do Admin"
+E entro na pagina de Admin
+E clico em visualizar quartos
+E é apresentado todos quartos disponiveis com suas respectivas informações
+E clico em excluir quarto
+Então o quarto é excluido com sucesso.
+
+
+8 - Login com sucesso
+
+Dado que estou no site da aplicação (https://projetoweb1hoteljpand.000webhostapp.com/index.php)
+Quando digito no campo "Username" um dado de um usuario existente
+E digito no campo "Password" a senha vinculada a este usuario
+E clico em Confirm
+Então logo corretamente na aplicação
+
+9- Reserva de quartos com data de checkin invalida
+
+Dado que estou no site da aplicação (https://projetoweb1hoteljpand.000webhostapp.com/index.php)
+Quando clico no modal "Ver mais quartos"
+E entro na Pagina
+E é apresentado os quartos disponiveis para reservar
+E eu escolho o quarto desejado clicando em Reservar Agora
+E entro na pagina de processo de reserva
+E preencho o campo Nome com meu nome completo
+E preencho o campo Email com meu Email
+E preencho o campo Checkin com uma data menor do que a data atual
+E escolho o quarto no dropdown de quartos
+E digito a quantidade de hóspedes do quarto
+E clico na checkbox para Aceitar os Termos de uso
+E clico no botão "Fazer Reserva"
+Então a aplicação apresentará uma modal informando que o checkin deverá informar uma data valida para checkin, do dia atual em diante
+
+10- Reserva de quarto sem hóspedes
+
+Dado que estou no site da aplicação (https://projetoweb1hoteljpand.000webhostapp.com/index.php)
+Quando clico no modal "Ver mais quartos"
+E entro na Pagina
+E é apresentado os quartos disponiveis para reservar
+E eu escolho o quarto desejado clicando em Reservar Agora
+E entro na pagina de processo de reserva
+E preencho o campo Nome com meu nome completo
+E preencho o campo Email com meu Email
+E preencho o campo Checkin com a data que desejo reservar
+E escolho o quarto no dropdown de quartos
+E não digito a quantidade de hóspedes
+E clico na checkbox para Aceitar os Termos de uso
+E clico no botão "Fazer Reserva"
+Então a aplicação apresentará uma modal informando que é necessário informar a quantidade de hóspedes que utilização o quarto.

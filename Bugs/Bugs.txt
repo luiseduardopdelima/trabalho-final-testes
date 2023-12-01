@@ -1,0 +1,19 @@
+1- Modal de Quarto de Luxo não mostrando imagem na pagina inicial
+
+2- Modal de Quarto de luxo não mostrando iamgem na pagina de detalhes do quarto
+
+3- Campo de Nome aceitando numero na pagina de processo de reserva
+
+4- Campo de Email não solicitando um email valido na pagina de processo de reserva
+
+5- Campo de Check in possibilitando selecionar datas antes da atual
+
+6- Não possuí o campo de Check out para o usuario
+
+7- Ao clicar para reservar o quarto não é reservado e apresenta a seguinte tela de erro
+
+8- Na pagina do administrador na tela de quartos, não é possivel excluir um quarto, apresentando a tela de erro com a mensagem "parametros invalidos"
+
+9- Ao digitar qualquer login e senha e clicar em confirmar é enviado a pagina de dashboard, que não existe
+
+10- Pagina de Quartos Disponiveis não apresenta imagens dos quartos
